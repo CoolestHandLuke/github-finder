@@ -10,6 +10,11 @@ import { GithubProvider } from './context/github/GithubContext';
 import { AlertProvider } from './context/alert/AlertContext';
 
 function App() {
+    /* Two different contexts are provided to allow for global access to state values. 
+    GithubProvided handles all the Github state and AlertProvider handles the instance of 
+    searching for users with an empty text field. Maybe a little overkill but it's fine. 
+    */
+
     return (
         <GithubProvider>
             <AlertProvider>

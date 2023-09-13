@@ -15,6 +15,13 @@ function About() {
                 </strong>
                 .
             </p>
+            <p className="mb-4 text-2xl font-light">
+                Implemented by{' '}
+                <strong>
+                    <a href="https://lukeinthecloud.com">Luke Shea</a>
+                </strong>{' '}
+                using React, Tailwind, DaisyUI, Vite, and lots of coffee.
+            </p>
             <p className="text-lg text-gray-400">
                 Version <span className="text-white">1.0.0</span>
             </p>
@@ -24,6 +31,7 @@ function About() {
                     className="text-white"
                     href="https://twitter.com/hassibmoddasser"
                 >
+                    {' '}
                     Hassib Moddasser
                 </a>
             </p>

@@ -2,6 +2,10 @@ import AlertContext from '../../context/alert/AlertContext';
 import { useContext } from 'react';
 
 const Alert = () => {
+    /* A simple component for a custom Alert bubble. Uses a ternary operator to determine visibility, 
+    and only appears when a user tries to submit a blank request. Disappears after 3 seconds to prevent 
+    being annoying. */
+
     const { alert } = useContext(AlertContext);
 
     return (

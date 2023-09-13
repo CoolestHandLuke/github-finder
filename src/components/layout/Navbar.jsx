@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 function Navbar({ title }) {
+    /* A simple Navbar component created using mostly DaisyUI pieces. Learned how to use
+    Links from react-router by doing this. Also gained a little more exerience using Tailwind. */
+
     return (
         <nav className="navbar mb-12 shadow-lg bg-neutral text-neutral-content">
             <div className="container mx-auto">
