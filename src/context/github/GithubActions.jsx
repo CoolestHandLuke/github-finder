@@ -19,10 +19,8 @@ export const searchUsers = async (text) => {
 
 // Get user and repos
 export const getUserAndRepos = async (login) => {
-    const [user, repos] = await Promise.all([
-        github.get(`/users/${login}`),
-        github.get(`/users/${login}/repos`),
-    ]);
+    const user = await github.get(`/users/${login}`);
+    const repos = await github.get(`/users/${login}/repos`);
 
     return { user: user.data, repos: repos.data };
 };
