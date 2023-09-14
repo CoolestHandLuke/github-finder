@@ -52,4 +52,4 @@ I also learned quite a bit about conditional rendering and how to make webpages 
 
 ## Author
 
--   Website - [https://www.lukeinthecloud.com](https://www.lukedinthecloud.com)
+-   Website - [https://www.coolesthandluke.com](https://www.coolesthandluke.com)
